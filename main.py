@@ -1,6 +1,6 @@
-import ability_scores
+import ability_scores as stats
 import classes
-import equipment
+import equipment as eq
 import spells
 import monsters
 
@@ -12,9 +12,21 @@ def dd_requests():
     4 - Spells\n
     5 - Monsters\n'''
     
-    option = input(text)
-    
+    while True:
+        option = input(text)   
+        if option not in (1, 2, 3, 4, 5):
+            print("Not an appropriate choice.")
+        else:
+            break
     if int(option) == 1:
+        stats.abilities()
+    elif int(option) == 2:
+        classes.hero_class()
+    elif int(option) == 3:
+        eq.equipment()
+    elif int(option) == 4:
+        spells.spell()
+    elif int(option) == 5:
         monsters.monster()
         
     
