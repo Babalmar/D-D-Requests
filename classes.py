@@ -18,4 +18,4 @@ def hero_class():
     a1 = response1.json()
     print('Name: {}, Hit die: {}'.format(a1['name'], a1['hit_die']))
 
-hero_class()
+

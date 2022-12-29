@@ -29,4 +29,4 @@ def abilities():
     for skill in sorted(skills):
         print(skill)
 
-abilities()
+

@@ -20,4 +20,3 @@ def equipment():
     if a1['equipment_category'] == 'Weapon':
         print('Weapon category: {}, Weapon range: {}, Damage dice: {}, Damage bonus: {}, Damage type: {}'.format(a1['weapon_category'], a1['weapon_range'], a1['damage']['damage_dice'], str(a1['damage']['damage_bonus']), a1['damage']['damage_type']['name']))
     
-equipment()

@@ -14,7 +14,7 @@ def dd_requests():
     
     while True:
         option = input(text)   
-        if option not in (1, 2, 3, 4, 5):
+        if option not in ("1", "2", "3", "4", "5"):
             print("Not an appropriate choice.")
         else:
             break

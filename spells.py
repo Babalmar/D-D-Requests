@@ -37,4 +37,3 @@ def spell():
     for profession in sorted(classes):
         print(profession)
 
-spell()
